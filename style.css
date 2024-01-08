@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pad {
+    width: 70px;
+    height: 70px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-family: sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px white;
+    
+}
+
+.boite {
+    display: flex;
+    width: 295px;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.press {
+    background-color: darkviolet;
+    /* transform: scale(1.2); */
+    /* border-radius: ; */
+}
